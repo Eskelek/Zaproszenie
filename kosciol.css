@@ -1,0 +1,30 @@
+.main {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url(images/kosciolzew.jpg);
+    background-position: center;
+}
+.main .sl {
+    width: 200px;
+    height: inherit;
+    font-size: 30px;
+    position: relative;
+    top: 200px;
+    background-color: blanchedalmond;
+    -webkit-transition: .7s;
+    transition: .7s;
+}
+.main .sl:hover {
+    width: 100%;
+}
+.main .sl h1 {
+    text-align: left;
+    padding-left: 30px;
+    width: 100%;
+    cursor: pointer;
+}
+.main .sl .p {
+    display: none;
+    background-color: aquamarine;
+}

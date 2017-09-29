@@ -1,0 +1,19 @@
+.main {
+    height: 100vh;
+    background-color: #111111;
+}
+.head ul li {
+    opacity: .6;
+}
+.clip {
+    height: 60vh;
+    width: 60vw;
+    position: relative;
+    top: 20%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: url(images/tumblr_mf7q0dSJF71qkgbe7o1_500.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
