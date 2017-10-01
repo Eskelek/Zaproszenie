@@ -38,14 +38,12 @@ $(function () {
     var klik = $("#klik");
     var p = $(".p");
     $(klik).click(function(){
-        if($('p.active').length > 0){
+        if($('p.active').length > 0){  
             $(p).slideUp();
-            $(p).css({'display': 'none'});
             $(p).removeClass('active');
         } else {
             $(p).slideDown();
-            $(p).css({'display': 'block'});
             $(p).addClass('active');
         }
-    })
+    });
 });
